@@ -12,23 +12,14 @@
 | Windows      | Linux / Mac | Action                                                 |
 | ---          | ---         | ---                                                    |
 | help         | man         |  shows long and short description command lines.       |
-
 | Get-Location | pwd         |  C:\Users\Yazmin                                       |
-
-| Get-ChildItem| ls          |  lists out files and folders.                           |
-
+| Get-ChildItem| ls          |  lists out files and folders.                          |
 | mkdir        | mkdir       |                                                        |
-
 | Set-Location | cd          |                                                        |
-
 | New-Item     | touch       |                                                        |
-
 | Move-Item    | mv          |                                                        |
-
 | Copy-Item    | cp          |                                                        |
-
 | Remove-Item  | rm          |                                                        |
-
 | notepad.exe  | vim         |                                                        |  
 
 ## Part 3 - Command Line Navigation
