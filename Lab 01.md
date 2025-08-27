@@ -51,5 +51,7 @@ Put your words here
 13. Delete / remove both `fodder.txt` AND `Dir B`:
 
 ## Citations
-
 To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
+  
+   -Assistance with Lab part 3 PowerShell commands was provided using ChatGPT (OpenAI, 2025).
+    The prompt was "Help me follow these 13 steps using Windows PowerShell while explaining each step, explain what every           indavidual command is doing, and what it means, keep it specific and educational."
