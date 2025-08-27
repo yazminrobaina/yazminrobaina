@@ -5,7 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. [yazminrobaina's GitHub Profile](FIXTHISURL-https://github.com/yazminrobaina)
+1. [yazminrobaina's GitHub Profile](FIXTHISURL-[https://github.com/yazminrobaina])
 
 ## Part 2 - Research
 
@@ -14,9 +14,9 @@
 | help         | man         |  shows long and short description command lines.       |
 | Get-Location | pwd         |  C:\Users\Yazmin                                       |
 | Get-ChildItem| ls          |  lists out files and folders.                          |
-| mkdir        | mkdir       |                                                        |
-| Set-Location | cd          |                                                        |
-| New-Item     | touch       |                                                        |
+| mkdir        | mkdir       |  commands to create paths for directories              |
+| Set-Location | cd          |  can change the directory in my files                  |
+| New-Item     | touch       |  similar to mkdir, It seems like it just change the directory                    |
 | Move-Item    | mv          |                                                        |
 | Copy-Item    | cp          |                                                        |
 | Remove-Item  | rm          |                                                        |
