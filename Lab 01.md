@@ -17,10 +17,10 @@
 | mkdir        | mkdir       |  commands to create paths for directories              |
 | Set-Location | cd          |  can change the directory in my files                  |
 | New-Item     | touch       |  similar to mkdir, It seems like it just change the directory                    |
-| Move-Item    | mv          |                                                        |
-| Copy-Item    | cp          |                                                        |
-| Remove-Item  | rm          |                                                        |
-| notepad.exe  | vim         |                                                        |  
+| Move-Item    | mv          | allows me to move files to another source path of my choice                                                  |
+| Copy-Item    | cp          | can copy files from one directory to another one                                                       |
+| Remove-Item  | rm          |  allows me to delete a items of my choice                                                     |
+| notepad.exe  | vim         |   opens a untitiled notepoad                                                     |  
 
 ## Part 3 - Command Line Navigation
 
@@ -29,7 +29,7 @@ My OS is:
 - [] Linux
 - [] Mac
 
-My Command Line Shell is: 
+My Command Line Shell is: PS C:\Users\Yazmin>
 
 ### Navigating My OS on the Command Line
 
