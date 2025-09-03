@@ -5,31 +5,22 @@
 
 ## Part 1 - GitHub Profile
 
-1. [yazminrobaina's GitHub Profile](FIXTHISURL-https://github.com/yazminrobaina)
+1. [yazminrobaina's GitHub Profile](FIXTHISURL-[https://github.com/yazminrobaina])
 
 ## Part 2 - Research
 
 | Windows      | Linux / Mac | Action                                                 |
 | ---          | ---         | ---                                                    |
 | help         | man         |  shows long and short description command lines.       |
-
 | Get-Location | pwd         |  C:\Users\Yazmin                                       |
-
-| Get-ChildItem| ls          |  lists out files and folders.                           |
-
-| mkdir        | mkdir       |                                                        |
-
-| Set-Location | cd          |                                                        |
-
-| New-Item     | touch       |                                                        |
-
-| Move-Item    | mv          |                                                        |
-
-| Copy-Item    | cp          |                                                        |
-
-| Remove-Item  | rm          |                                                        |
-
-| notepad.exe  | vim         |                                                        |  
+| Get-ChildItem| ls          |  lists out files and folders.                          |
+| mkdir        | mkdir       |  commands to create paths for directories              |
+| Set-Location | cd          |  can change the directory in my files                  |
+| New-Item     | touch       |  similar to mkdir, It seems like it just change the directory                    |
+| Move-Item    | mv          | allows me to move files to another source path of my choice                                                  |
+| Copy-Item    | cp          | can copy files from one directory to another one                                                       |
+| Remove-Item  | rm          |  allows me to delete a items of my choice                                                     |
+| notepad.exe  | vim         |   opens a untitiled notepoad                                                     |  
 
 ## Part 3 - Command Line Navigation
 
@@ -38,7 +29,7 @@ My OS is:
 - [] Linux
 - [] Mac
 
-My Command Line Shell is: 
+My Command Line Shell is: PS C:\Users\Yazmin>
 
 ### Navigating My OS on the Command Line
 
@@ -60,5 +51,7 @@ Put your words here
 13. Delete / remove both `fodder.txt` AND `Dir B`:
 
 ## Citations
-
 To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
+  
+   -Assistance with Lab part 3 PowerShell commands was provided using ChatGPT (OpenAI, 2025).
+    The prompt was "Help me follow these 13 steps using Windows PowerShell while explaining each step, explain what every           indavidual command is doing, and what it means, keep it specific and educational."
