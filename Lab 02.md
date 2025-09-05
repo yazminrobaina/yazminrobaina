@@ -73,34 +73,28 @@
 2) Command(s) to make file with root:
 - I ran 'sudo -i' which changes to rootshell and created file 'touch madewithroot.txt'. Then I checked to see if it worked, 'ls -1 madewithroot.txt'
 3) Describe / compare ownership and permissions of files:
--  I ran to see permissions 'ls -l madewithsudo.txt madewithroot.txt'
+-  I ran to see permissions 'ls -l madewithsudo.txt madewithroot.txt' and output was '-rw-r--r-- 1 root root madewithsudo.txt'
+'rw-r--r-- 1 root root madewithroot.txt'
+### table of contents:
+- Who can View? root,yazrobaina,ubuntu
+- Who can write? root,yazrobaina,ubuntu
+- Who can execute? root,yazrobaina,ubuntu
+### table of madewithsudo.txt:
+- Who can View? root,yazrobaina,ubuntu
+- Who can Write? only root.
+- Who can change permissions? only root.
+
+4) Command(s) to modify permissions:
+- I ran "sudo chown ubuntu:squad /home/ubuntu madewithsudo.txt" I used superuser to change owenership and set ubuntu as owner of squad for the madewithsudo.txt. 'sudo chmod 660 /home/ubuntu/madewithsudo.txt' I changed file permissions using numericmode making the user/owner r+w(6), making group (6) r+w and leaving others no access. (0).
+5) How to give user account sudo:
+- I ran command 'sudo usermod -aG sudo yazrobaina' as superuser to modify useraccount to append yazrobaina to sudo group without (-a) appending yazrobaina.
+Then i switched user 'su-yazrobaina' and double checked by asking 'sudo whoami' because regular whoami didn't work. and the output was 'root'.
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-Describe / compare ownership and permissions of files
-Tables:
-Contents of share
-root can dos
-ubuntu can dos
-BOB can dos
-madewithsudo.txt
-root can dos
-ubuntu can dos
-BOB can dos
-Command(s) to modify permissions
-How to give user account sudo
 
 
 
