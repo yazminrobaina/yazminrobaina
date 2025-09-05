@@ -27,6 +27,37 @@
 - meaning: Command changes the ability to the (R) folder and everything inside, for the (u) user and (g) group plus the permission to (+w) write. Giving the owner and group permission to edit. With ability that shares that specifc directory and whatever is inside .
 - Assessment: This seems like a safe command for group situations, it makes the owner and group share and modify, within that directory, assuming that there are non-sensitive files inside that shouldn't be edited .
 
+## Part 3 - Regular bob
+1) - Create new User:
+I created a new user 'sudo adduser yazminrobaina'. Which created a new user with its personal home directory and login.
+2) - Path to new user’s home directory:
+I checked the new users directory by '/home/yazrobiana' and then I checked the list by ls/home and my new user was there.
+3) - Evaluate if ubuntu can add files to new user’s home directory:
+ As ubuntu i tried to create a file and couldn't write using 'touch myfile.txt' and permission was denyed.
+4) - Command to switch to new user:
+I used command 'su - yazrobaina' which switched me from ubuntu to yazrobaina directory. i confirmed it with 'whoami' command. and output was yazrobaina user.
+5) - Command(s) to go to new user’s home directory: 
+I used 'pwd' command and saw I was still in yazrobaina directory, the output was '/home/yazrobaina.
+6) - Command to return to ubuntu user:
+ I tried to see if yazrobaina could add files to ubuntu's home directory with command '/home/ubuntu/tester.txt', and i was denied because the yazrobaina is private directory and create files on ubuntu's end.
+ 7) - Command to return to ubuntu home directory:
+ Since I am in yazrobaina directory, I used 'exit' command to exit that user and it automatically puts in in ubuntu, and i used command 'whoami' to confirm. the output was 'ubuntu'
+ 8) - Command to return to ubuntu home directory: I used change directory command to home using 'cd~' and the output said /home/ubuntu .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
