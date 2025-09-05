@@ -21,11 +21,11 @@
 
 4) chmod 751 program
 - meaning: The command changes the permission of the owner/user (7) which is the first digit, making it so they can read,write and execute the file. Then the second digit (5) makes the group just read and execute. And (1)  anyone else just able to execute.
-assessment: This seems like a good and safe permission set up. It allows the owner to r,w,and x. Makes the group just r and x without the ability to make unauthorized changes. And leaving anyone else with just the ability to run the program.
+- assessment: This seems like a good and safe permission set up. It allows the owner to r,w,and x. Makes the group just r and x without the ability to make unauthorized changes. And leaving anyone else with just the ability to run the program.
 
 5) chmod -R ug+w share
 - meaning: Command changes the ability to the (R) folder and everything inside, for the (u) user and (g) group plus the permission to (+w) write. Giving the owner and group permission to edit. With ability that shares that specifc directory and whatever is inside .
--Assessment: This seems like a safe command for group situations, it makes the owner and group share and modify, within that directory, assuming that there are non-sensitive files inside that shouldn't be edited .
+- Assessment: This seems like a safe command for group situations, it makes the owner and group share and modify, within that directory, assuming that there are non-sensitive files inside that shouldn't be edited .
 
 
 
