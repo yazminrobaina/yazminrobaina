@@ -68,6 +68,12 @@
 - touch testmakefile.txt (testing to see if yazrobaina can make file in folder))
 
 ## Part 5
+1) Command(s) to make file using sudo:
+-  'sudo touch madewithsudo.txt' commaned created a new file named madewithsudo.txt using superuser. 
+2) Command(s) to make file with root:
+- I ran 'sudo -i' which changes to rootshell and created file 'touch madewithroot.txt'. Then I checked to see if it worked, 'ls -1 madewithroot.txt'
+3) Describe / compare ownership and permissions of files:
+-  I ran to see permissions 'ls -l madewithsudo.txt madewithroot.txt'
 
 
 
@@ -83,8 +89,18 @@
 
 
 
-
-
+Describe / compare ownership and permissions of files
+Tables:
+Contents of share
+root can dos
+ubuntu can dos
+BOB can dos
+madewithsudo.txt
+root can dos
+ubuntu can dos
+BOB can dos
+Command(s) to modify permissions
+How to give user account sudo
 
 
 
