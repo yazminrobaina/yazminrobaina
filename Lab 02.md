@@ -8,11 +8,11 @@
 
 ## Part 2 - Bits of permissions
 1) chmod u+r bubbles.txt
-- meaning: The command "chmod u+r bubbles.txt" changes the level of interaction that the user has with the file, the u+r makes it so the user can read the bubbles.txt file. It does not affect anyone else but that user.
-- Assessment: Pretty safe command giving the user the ability to read the bubble.txt file.without the file being overly exposed. But the user might need the ability to edit it later on, or what not.
+- meaning: The command "chmod u+r bubbles.txt" changes the permission level the user has with the file, the u+r makes it so the user can read the bubbles.txt file. It does not affect anyone else but that user.
+- Assessment: Pretty safe command giving the user the ability to read the bubble.txt file without the file being too exposed. But the user might need the ability to edit it later on,so that could be an issue.
 
 2) chmod u=rw,g-w,o-x banana.cabana
-- meaning: The command "chmod u=rw,g-w,o-x banana.cabana" gives the user of the file  permission to read and write. It removes the permission from g (group), the group cannot write in the banana file, only view it. Everyone else cannot run the file as  program.
+- meaning: The command "chmod u=rw,g-w,o-x banana.cabana" gives the user of the file  permission to read and write. It removes the permission from g (group), the group cannot write in the banana file, only view it. Everyone else cannot run the file.
 - assessment: This is a good command that gives clear boundaries. Which makes it so the owner of the file can read + edit. While stopping others in the group from editing it giving file good security.
 
 3) chmod a=w snow.md
@@ -20,22 +20,22 @@
 - assessment: Not good command because it doesn't make sense to give all users just the ability to write, without the ability to read it. It doesn't realy make sense.
 
 4) chmod 751 program
-- meaning: The command changes the permission of the owner/user (7) which is the first digit, making it so they can read,write and execute the file. Then the second digit (5) makes the group just read and execute. And (1)  anyone else just able to execute.
+- meaning: the command changes the permission of the owner/user (7) which is the first digit, making it so they can read,write and execute the file. Then the second digit (5) makes the group just read and execute. And (1)  anyone else just able to execute.
 - assessment: This seems like a good and safe permission set up. It allows the owner to r,w,and x. Makes the group just r and x without the ability to make unauthorized changes. And leaving anyone else with just the ability to run the program.
 
 5) chmod -R ug+w share
 - meaning: Command changes the ability to the (R) folder and everything inside, for the (u) user and (g) group plus the permission to (+w) write. Giving the owner and group permission to edit. With ability that shares that specifc directory and whatever is inside .
-- Assessment: This seems like a safe command for group situations, it makes the owner and group share and modify, within that directory, assuming that there are non-sensitive files inside that shouldn't be edited .
+- Assessment: This seems like a safe command for group situations, it makes the owner and group share and modify, within that directory, assuming that there is  nothing sensitive inside that shouldn't be edited .
 
 ## Part 3 - Regular bob
 1) Create new User:
-- I created a new user 'sudo adduser yazminrobaina'. Which created a new user with its personal home directory and login.
+- I created a new user 'sudo adduser yazminrobaina'. Which created a new user with its attached personal home directory and login.
 2) Path to new user’s home directory:
 - I checked the new users directory by '/home/yazrobiana' and then I checked the list by ls/home and my new user was there.
 3) Evaluate if ubuntu can add files to new user’s home directory:
 -  As ubuntu i tried to create a file and couldn't write using 'touch myfile.txt' and permission was denied.
 4) Command to switch to new user:
-- I used command 'su - yazrobaina' which switched me from ubuntu to yazrobaina directory. i confirmed it with 'whoami' command. and output was yazrobaina user.
+- I used command 'su - yazrobaina' which switched me from ubuntu to yazrobaina directory. I confirmed it with 'whoami' command. and output was yazrobaina user.
 5) Command(s) to go to new user’s home directory: 
 - I used 'pwd' command and saw I was still in yazrobaina directory, the output was '/home/yazrobaina' .
 6) Command to return to ubuntu user:
