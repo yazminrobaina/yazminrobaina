@@ -5,7 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. [yazminrobaina's GitHub Profile](FIXTHISURL-[https://github.com/yazminrobaina])
+1. [yazminrobaina's GitHub Profile] (FIXTHISURL-[https://github.com/yazminrobaina])
 
 ## Part 2 - Research
 
