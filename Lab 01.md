@@ -5,7 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. [yazminrobaina's GitHub Profile](FIXTHISURL-[https://github.com/yazminrobaina])
+1. [yazminrobaina's GitHub Profile] (FIXTHISURL-[https://github.com/yazminrobaina])
 
 ## Part 2 - Research
 
@@ -16,7 +16,7 @@
 | Get-ChildItem| ls          |  lists out files and folders.                          |
 | mkdir        | mkdir       |  commands to create paths for directories              |
 | Set-Location | cd          |  can change the directory in my files                  |
-| New-Item     | touch       |  similar to mkdir, It seems like it just change the directory                    |
+| New-Item     | touch       |  creates a new file or a folder.                       |
 | Move-Item    | mv          | allows me to move files to another source path of my choice                                                  |
 | Copy-Item    | cp          | can copy files from one directory to another one                                                       |
 | Remove-Item  | rm          |  allows me to delete a items of my choice                                                     |
@@ -33,25 +33,25 @@ My Command Line Shell is: PS C:\Users\Yazmin>
 
 ### Navigating My OS on the Command Line
 
-1. Full / absolute path to your user's home directory:
-2. Create a directory named `DirA`:
-3. Create a directory named `Dir B`:
-4. Go into `DirA`:
-5. Go into `Dir B` from `DirA`:
-6. Return to your user's home directory:
-7. Create a file named `test.txt`:
-8. Move the file named `test.txt` into `DirA`:
-9. Contents of `test.txt`:
+1. Full / absolute path to your user's home directory: `/home/ubuntu/ceg2350f25-yazminrobaina`
+2. Create a directory named `DirA`:`mkdir "$HOME/ceg2350f25-yazminrobaina/DirA"`
+3. Create a directory named `Dir B`:`mkdir "$HOME/ceg2350f25-yazminrobaina/Dir B"`
+4. Go into `DirA`:cd`cd "$HOME/ceg2350f25-yazminrobaina/DirA"`
+5. Go into `Dir B` from `DirA`:`cd "$HOME/ceg2350f25-yazminrobaina/Dir B"`
+6. Return to your user's home directory: `cd ~`
+7. Create a file named `test.txt`:`touch "touch test.txt`
+8. Move the file named `test.txt` into `DirA`:`mv test.txt DirA/"`
+9. Contents of `test.txt`:`vim "$HOME/ceg2350f25-yazminrobaina/DirA/test.txt"`
 ```
-Put your words here
+"you got this :)"
+
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-11. View the contents of `DirA`: 
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`:`cp DirA/test.txt DirA/copy.txt`
+11. View the contents of `DirA`: `ls DirA`
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:`rm DirA/test.txt`
+13. Delete / remove both `fodder.txt` AND `Dir B`:`rm "Dir B/fodder.txt"` `rm -r "Dir B"`
 
 ## Citations
 To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
   
-   -Assistance with Lab part 3 PowerShell commands was provided using ChatGPT (OpenAI, 2025).
-    The prompt was "Help me follow these 13 steps using Windows PowerShell while explaining each step, explain what every           indavidual command is doing, and what it means, keep it specific and educational."
+  
